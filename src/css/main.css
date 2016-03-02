@@ -1,0 +1,54 @@
+/* ==========================================================================
+	 Author's custom styles
+	 ========================================================================== */
+body {
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+td {
+	font-size: 21px;
+}
+
+a:hover,
+a:focus {
+	text-decoration: none;
+}
+
+.tbl-number {
+	width: 5%;
+}
+
+.tbl-text {
+	width: 70%;
+}
+
+.tbl-buttons {
+	width: 25%;
+	min-width: 150px;
+	text-align: right;
+}
+
+.add-group {
+	width: 100%;
+}
+
+#notes-app {
+	background-color: #fff;
+}
+
+#add-button {
+	margin-top: 2em;
+}
+
+/* Angular UI Bootstrap correction. */
+.nav,
+.pagination,
+.carousel,
+.panel-title a {
+	cursor: pointer;
+}
+
+.modal {
+	background-color: rgba(0, 0, 0, 0.5);
+}

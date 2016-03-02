@@ -1,0 +1,71 @@
+/* ==========================================================================
+	 Author's custom styles
+	 ========================================================================== */
+
+body {
+	padding-top: 50px;
+	padding-bottom: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3 {
+	font-weight: 700;
+}
+
+td {
+	font-size: 21px;
+}
+
+a, button {
+	@include transition(all .5s);
+}
+a:hover,
+a:focus {
+	text-decoration: none;
+}
+
+button:hover {
+	box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+}
+
+button.lang:hover {
+	box-shadow: none;
+	@include transition(none);
+}
+
+.tbl-number {
+	width: 5%;
+}
+
+.tbl-text {
+	width: 70%;
+}
+
+.tbl-buttons {
+	width: 25%;
+	min-width: 150px;
+	text-align: right;
+}
+
+.add-group {
+	width: 100%;
+}
+
+#notes-app {
+	background-color: #fff;
+}
+
+#add-button {
+	margin-top: 2em;
+}
+
+@mixin transition ($params...) {
+ 	-webkit-transition: $params;
+	   -moz-transition: $params;
+		-ms-transition: $params;
+	 	 -o-transition: $params;
+			transition: $params;
+}
+
+// Angular UI Bootstrap corrections
+@import "_corrections";

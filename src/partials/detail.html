@@ -1,0 +1,9 @@
+<!-- partial/detail.html -->
+<div class="jumbotron">
+	
+	<h2 translate="DETAIL_NOTE" translate-values="{ value: note.id }"></h2>
+	<p ng-show="message">{{ message }}</p>
+	<p ng-show="error" translate="CANNOT_RESOLVE_DETAIL"></p>
+	<small ng-show="status" translate="RESPONSE_STATUS" translate-values="{ value: status }"></small>
+
+</div>

@@ -1,0 +1,13 @@
+<!-- partial/remove.html -->
+<div class="jumbotron">
+	
+	<h2 translate="REMOVE_NOTE"></h2>
+
+	<p ng-show="!(ok || error)" translate="REMOVING_NOTE" translate-values="{ value: noteID }"></p>
+	<p ng-show="ok" translate="NOTE_REMOVED" translate-values="{ value: noteID }"></p>
+	<p ng-show="error" translate="NOTE_CANNOT_REMOVE" translate-values="{ value: noteID }"></p>
+	<p ng-show="cancel" translate="CANCELLED"></p>
+
+	<small ng-show="status" translate="RESPONSE_STATUS" translate-values="{ value: status }"></small>
+
+</div>

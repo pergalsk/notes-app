@@ -1,0 +1,20 @@
+<!-- partial/edit.html -->
+<div class="jumbotron">
+
+	<h2 translate="CHANGE_NOTE_TEXT" translate-values="{ value: noteID }"></h2>
+	
+	<form name="form" novalidate>
+		<div class="input-group add-group">
+
+			<input type="text" class="form-control" placeholder="{{ 'TYPE_A_NOTE' | translate }}" name="noteText" ng-model="noteText" required autofocus>
+
+			<span class="input-group-btn">
+				<button class="btn btn-primary" type="button" ng-click="updateNote()" ng-disabled="form.noteText.$invalid">
+					<span class="glyphicon glyphicon-ok" aria-hidden="true"></span> {{ 'UPDATE_BTN' | translate }}
+				</button>
+			</span>
+
+		</div><!-- /input-group -->
+	</form>
+
+</div>

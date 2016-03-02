@@ -1,0 +1,19 @@
+<hr>
+
+<footer>
+
+	<div class="row">
+		<div class="col-sm-8">
+			<button class="btn btn-default lang" ng-show="lang == 'sk'" ng-click="changeLanguage('en')">
+				<span class="glyphicon glyphicon-retweet" aria-hidden="true"></span> {{ 'BUTTON_LANG_EN' | translate }}
+			</button>
+			<button class="btn btn-default lang" ng-show="lang == 'en'" ng-click="changeLanguage('sk')">
+				<span class="glyphicon glyphicon-retweet" aria-hidden="true"></span> {{ 'BUTTON_LANG_SK' | translate }}
+			</button>
+		</div>
+		<div class="col-sm-4">
+			<p class="text-right"><small>&copy; -pg- 2016</small></p>
+		</div>
+	</div>
+
+</footer>

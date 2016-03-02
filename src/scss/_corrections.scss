@@ -1,0 +1,11 @@
+/* Angular UI Bootstrap correction. */
+.nav,
+.pagination,
+.carousel,
+.panel-title a {
+	cursor: pointer;
+}
+
+.modal {
+	background-color: rgba(0,0,0,0.5);
+}

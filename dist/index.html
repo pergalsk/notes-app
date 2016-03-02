@@ -1,0 +1,54 @@
+<!doctype html>
+<html ng-app="notesApp" lang="{{ lang }}">
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title translate="NOTES_APP"></title>
+	<meta name="description" content="Application for managing Notes.">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	
+	<!--<base href="/">-->
+
+</head>
+<body>
+
+<div id="notes-app" class="container" ng-controller="myCtrl" ng-cloak>
+
+	<div class="row">
+		<div class="col-sm-6">
+
+			<!-- Header with Add new button -->
+			<div ng-include=" 'partials/header.html' "></div>
+		
+			<!-- Table for displaying notes -->
+			<div ng-include=" 'partials/table.html' "></div>
+		
+		</div>
+		<div class="col-sm-6">
+
+			<!-- View for displaying app states -->
+			<div ui-view></div>
+		
+		</div>
+	</div><!-- /row -->
+
+	<!-- Footer with launguage switch -->
+	<div ng-include=" 'partials/footer.html' "></div>
+
+</div><!-- /notesApp container -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-animate.min.js"></script>
+<script src="https://rawgithub.com/PascalPrecht/bower-angular-translate/master/angular-translate.min.js"></script>
+<script src="https://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-1.2.1.min.js"></script>
+
+<script src="js/vendor/angular-vendor.min.js"></script>
+<script src="js/app.min.js"></script>
+
+</body>
+</html>

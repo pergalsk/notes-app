@@ -1,0 +1,38 @@
+{
+    "BUTTON_LANG_EN": "English",
+    "BUTTON_LANG_SK": "Slovensky",
+    
+    "NOTES_APP": "Notes App",
+    "ADD_NEW_NOTE_BTN": "Add new Note",
+    "BUTTON_GROUP": "Button group",
+    "DETAIL_BTN_LABEL": "Detail",
+    "EDIT_BTN_LABEL": "Edit",
+    "REMOVE_BTN_LABEL": "Remove",
+    
+    "WELCOME_TITLE": "Welcome!",
+    "WELCOME_TEXT": "Application for managing Notes. You can view detail, update text, add or delete a Note. Please click on related buttons to take an action.",
+    
+    "DETAIL_NOTE": "Detail note {{ value }}:",
+    "CANNOT_RESOLVE_DETAIL": "Cannot resolve note detail.",
+    "RESPONSE_STATUS": "Response status: {{ value }}",
+    
+    "REMOVE_NOTE": "Remove note",
+    "SURE_REMOVE": "Are you sure you want to remove note?",
+    "REMOVE_BTN": "REMOVE",
+    "CANCEL_BTN": "Cancel",
+    "REMOVING_NOTE": "Removing note ID:{{ value }}...",
+    "NOTE_REMOVED": "Note ID:{{ value }} removed.",
+    "NOTE_CANNOT_REMOVE": "Note ID:{{ value }} cannot remove.",
+    "CANCELLED": "Cancelled.",
+    
+    "ADD_NEW_NOTE": "Add new Note:",
+    "TYPE_A_NOTE": "Type a note...",
+    "ADD_BTN": "Add new",
+    "INFO": "Info",
+    "NEW_NOTE_ADDED": "New Note has been added. (ID:{{  value }})",
+    "OK_BTN": "OK",
+    
+    "CHANGE_NOTE_TEXT": "Change Note text {{ value }}:",
+    "UPDATE_BTN": "Update",
+    "NOTE_UPDATED": "Note has been updated. (ID:{{ value }})"
+}

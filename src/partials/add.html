@@ -1,0 +1,20 @@
+<!-- partial/add.html -->
+<div class="jumbotron">
+
+	<h2 translate="ADD_NEW_NOTE"></h2>
+	
+	<form name="form" novalidate>
+		<div class="input-group add-group">
+
+			<input type="text" class="form-control" placeholder="{{ 'TYPE_A_NOTE' | translate }}" name="noteText" ng-model="noteText" required>
+
+			<span class="input-group-btn">
+				<button class="btn btn-primary" type="button" ng-click="addNote()" ng-disabled="form.noteText.$invalid">
+					<span class="glyphicon glyphicon-ok" aria-hidden="true"></span> {{ 'ADD_BTN' | translate }}
+				</button>
+			</span>
+
+		</div><!-- /input-group -->
+	</form>
+
+</div>
