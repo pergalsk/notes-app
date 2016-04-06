@@ -59,6 +59,7 @@ button.lang:hover {
 	margin-top: 2em;
 }
 
+// mixins
 @mixin transition ($params...) {
  	-webkit-transition: $params;
 	   -moz-transition: $params;
